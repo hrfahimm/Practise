@@ -1,16 +1,34 @@
 /** @format */
+
+"use client";
+
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
-export const metadata = {
-    title: 'Next Js "1',
-    description: "Hellow Next Js",
-};
+
 const RootLayout = ({ children }) => {
+    console.log("from ");
     return (
         <html lang='en'>
             <body className={inter.className}>
-                <h1>nav</h1>
+                <nav>
+                    <Link
+                        href='./'
+                        className='p-4 font-extrabold text-xl '>
+                        Home
+                    </Link>
+                    <Link
+                        href='./about'
+                        className='p-4 font-extrabold text-xl '>
+                        About
+                    </Link>
+                    <Link
+                        href='./dashboard'
+                        className='p-4 font-extrabold text-xl '>
+                        Dasgboard
+                    </Link>
+                </nav>
 
                 {children}
 
