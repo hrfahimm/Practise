@@ -4,7 +4,8 @@ export const metadata = {
     description: "Hellow Next Js",
 };
 const DashBoardPage = () => {
-    return <div>DashBoardPage</div>;
+    return <div >
+        DashBoardPage</div>;
 };
 
 export default DashBoardPage;

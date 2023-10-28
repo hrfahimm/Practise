@@ -1,8 +1,8 @@
 /** @format */
 
 import Link from "next/link";
+import NavLink from "./NavLink";
 
-/** @format */
 const navlinks = [
     {
         path: "/",
@@ -13,8 +13,8 @@ const navlinks = [
         title: "About",
     },
     {
-        path: "/profild",
-        title: "Profild",
+        path: "/profile",
+        title: "Profile",
     },
     {
         path: "/blogs",
@@ -36,7 +36,12 @@ const Navbar = () => {
                     <li
                         key={path}
                         className='mx-2 text-xl'>
-                        <Link href={path}>{title}</Link>
+                        <NavLink
+                            exact={path === "/"}
+                            activeClassName='text-red-500 '
+                            href={path}>
+                            {title}
+                        </NavLink>
                     </li>
                 ))}
             </ul>

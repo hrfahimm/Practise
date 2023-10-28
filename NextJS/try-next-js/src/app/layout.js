@@ -1,16 +1,20 @@
 /** @format */
 
-"use client";
-
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+    subsets: ["latin"],
+    weight: ["100", "300", "500", "700"],
+    variable: "--font-roboto",
+});
 
 const RootLayout = ({ children }) => {
     return (
         <html lang='en'>
-            <body className={inter.className}>{children}</body>
+            <body className={`${roboto.className} font-roboto`}>
+                {children}
+            </body>
         </html>
     );
 };

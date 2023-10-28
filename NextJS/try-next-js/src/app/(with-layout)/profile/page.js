@@ -4,7 +4,7 @@ export const metadata = {
     description: "Hellow Next Js",
 };
 const profilepage = () => {
-    return <div>page</div>;
+    return <div className='text-center text-3xl'> Profile page</div>;
 };
 
 export default profilepage;

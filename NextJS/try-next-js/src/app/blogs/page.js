@@ -1,35 +1,37 @@
 /** @format */
-
+//"use client";
+//import { useRouter } from "next/navigation";
 import Link from "next/link";
-
-export const metadata = {
-    title: "Next || Blogs",
-    description: "Hellow Next Js",
-};
 const blogs = [
     {
         id: 1,
-        year: 2000,
-        title: "title!",
+        year: 2003,
+        title: "title 1",
     },
     {
-        id: 1,
-        year: 2000,
-        title: "title2",
+        id: 2,
+        year: 2020,
+        title: "title 2",
     },
     {
-        id: 1,
-        year: 2000,
-        title: "title4",
+        id: 3,
+        year: 2008,
+        title: "title 3",
     },
 ];
 const BlogsPage = () => {
+    //const router = useRouter();
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto p-2'>
             {blogs.map(({ id, title, year }) => (
                 <Link
-                    className='block border border-blue-500 p-2 my-2'
-                    href={`/blogs/${year}/${id}`}
+                    className='block border-2 rounded-lg border-red-500 text-center uppercase text-2xl p-2 my-2'
+                    href={`/blogs/${year}/${id}?title=${title}`}
+                    //onClick={() => router.replace(`/blogs/${year}/${id}?title=${title}`)}
+                    //onClick={() => router.push(`/blogs/${year}/${id}?title=${title}`)}
+                    //onClick={() => router.refresh(`/blogs/${year}/${id}?title=${title}`)}
+                    //onClick={() => router.back()}
+                    //onClick={() => router.back()}
                     key={id}>
                     {title}
                 </Link>
