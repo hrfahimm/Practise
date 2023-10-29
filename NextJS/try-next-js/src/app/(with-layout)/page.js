@@ -11,7 +11,7 @@ export const metadata = {
 const HomePage = () => {
     return (
         <main className='flex flex-col items-center justify-between p-24'>
-            <h1 className='text-3xl text-red-600'>next js Home</h1>
+            <h1 className='text-3xl text-red-600 p-2'>next js Home</h1>
             <Image
                 width={600}
                 height={380}
