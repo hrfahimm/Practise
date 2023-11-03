@@ -17,7 +17,7 @@ const HomePage = () => {
                 height={380}
                 alt='logo'
                 src={img1}
-                placeholder='blur'
+                placeholder='red'
             />
         </main>
     );
