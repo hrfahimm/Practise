@@ -1,5 +1,6 @@
 /** @format */
 
+import Categories from "@/components/HomePage/Categories";
 import img1 from "../../assets/images/img1.jpg";
 
 import Image from "next/image";
@@ -19,6 +20,9 @@ const HomePage = () => {
                 src={img1}
                 placeholder='blur'
             />
+            <div>
+                <Categories />
+            </div>
         </main>
     );
 };

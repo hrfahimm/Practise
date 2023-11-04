@@ -1,13 +1,12 @@
 /** @format */
 //"use client";
 //import { useRouter } from "next/navigation";
+import loadBlogsData from "@/utils/loadBlogsData";
 import Link from "next/link";
 const BlogsPage = async () => {
     //const router = useRouter();
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
-        cache: "force-cache",
-    });
-    const blogs = await res.json();
+    const blogs = await loadBlogsData();
+
     return (
         <div className='container mx-auto p-2'>
             {blogs.map(({ id, title, body }) => (
