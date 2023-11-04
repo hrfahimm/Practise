@@ -222,5 +222,172 @@
             "features": ["Feature X", "Feature Y", "Feature Z"],
             "imageUrl": "https://example.com/product10.jpg"
         }
+    ],
+    "mobile_products": [
+        {
+            "id": 1,
+            "title": "Mobile 1",
+            "price": 499,
+            "categoryId": 1,
+            "features": ["Feature A", "Feature B", "Feature C"],
+            "imageUrl": "https://example.com/mobile1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Mobile 2",
+            "price": 599,
+            "categoryId": 2,
+            "features": ["Feature X", "Feature Y", "Feature Z"],
+            "imageUrl": "https://example.com/mobile2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Mobile 3",
+            "price": 699,
+            "categoryId": 1,
+            "features": ["Feature P", "Feature Q", "Feature R"],
+            "imageUrl": "https://example.com/mobile3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Mobile 4",
+            "price": 799,
+            "categoryId": 3,
+            "features": ["Feature M", "Feature N", "Feature O"],
+            "imageUrl": "https://example.com/mobile4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Mobile 5",
+            "price": 899,
+            "categoryId": 2,
+            "features": ["Feature G", "Feature H", "Feature I"],
+            "imageUrl": "https://example.com/mobile5.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Mobile 6",
+            "price": 999,
+            "categoryId": 1,
+            "features": ["Feature D", "Feature E", "Feature F"],
+            "imageUrl": "https://example.com/mobile6.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Mobile 7",
+            "price": 1099,
+            "categoryId": 3,
+            "features": ["Feature U", "Feature V", "Feature W"],
+            "imageUrl": "https://example.com/mobile7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Mobile 8",
+            "price": 1199,
+            "categoryId": 2,
+            "features": ["Feature J", "Feature K", "Feature L"],
+            "imageUrl": "https://example.com/mobile8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Mobile 9",
+            "price": 1299,
+            "categoryId": 1,
+            "features": ["Feature T", "Feature U", "Feature V"],
+            "imageUrl": "https://example.com/mobile9.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Mobile 10",
+            "price": 1399,
+            "categoryId": 3,
+            "features": ["Feature X", "Feature Y", "Feature Z"],
+            "imageUrl": "https://example.com/mobile10.jpg"
+        }
+    ],
+    "fruits": [
+        {
+            "id": 1,
+            "title": "Apple",
+            "price": 1.99,
+            "categoryId": 1,
+            "features": [
+                "Rich in fiber",
+                "Varieties: Fuji, Granny Smith, Gala"
+            ],
+            "imageUrl": "https://example.com/apple.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Banana",
+            "price": 0.99,
+            "categoryId": 1,
+            "features": ["High in potassium", "Great for energy"],
+            "imageUrl": "https://example.com/banana.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Orange",
+            "price": 1.49,
+            "categoryId": 1,
+            "features": ["Rich in Vitamin C", "Citrus fruit"],
+            "imageUrl": "https://example.com/orange.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Grapes",
+            "price": 2.49,
+            "categoryId": 1,
+            "features": ["Comes in different colors", "Can be seedless"],
+            "imageUrl": "https://example.com/grapes.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Strawberry",
+            "price": 3.99,
+            "categoryId": 1,
+            "features": ["Rich in antioxidants", "Sweet and tart"],
+            "imageUrl": "https://example.com/strawberry.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Pineapple",
+            "price": 2.99,
+            "categoryId": 1,
+            "features": ["Tropical fruit", "Contains bromelain"],
+            "imageUrl": "https://example.com/pineapple.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Watermelon",
+            "price": 4.49,
+            "categoryId": 1,
+            "features": ["High water content", "Refreshing in summer"],
+            "imageUrl": "https://example.com/watermelon.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Mango",
+            "price": 2.79,
+            "categoryId": 1,
+            "features": ["Sweet and juicy", "Rich in Vitamin A"],
+            "imageUrl": "https://example.com/mango.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Pear",
+            "price": 1.89,
+            "categoryId": 1,
+            "features": ["Fibrous texture", "Varieties: Anjou, Bartlett, Bosc"],
+            "imageUrl": "https://example.com/pear.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Cherry",
+            "price": 3.49,
+            "categoryId": 1,
+            "features": ["Small stone fruit", "Sweet and tangy"],
+            "imageUrl": "https://example.com/cherry.jpg"
+        }
     ]
 }
