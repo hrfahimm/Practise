@@ -1,14 +1,19 @@
 /** @format */
 
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const SingleProduct = ({ product }) => {
-    const { title } = product;
+    const { id, title, price, imageUrl } = product;
     return (
-        <div>
+        <div className='p-3 shadow-lg rounded-lg'>
+            <h1 className='text-xl font-medium'>{title}</h1>
+            <h5>$ {price}</h5>
+
             <Link href={`/products/${id}`}>
-                <h1>{title}</h1>
+                <button className='px-3 py-2 bg-blue-500 text-white focus:ring-2 rounded-md'>
+                    Details
+                </button>
             </Link>
         </div>
     );

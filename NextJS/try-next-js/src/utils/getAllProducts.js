@@ -1,12 +1,12 @@
 /** @format */
 
-const getAllProducts = async (category) => {
+const getAllProducts = async (categoryId) => {
     let url = "http://localhost:5000/products";
-    if (category) {
-        url += "?categoryId=" + category.id;
+    if (categoryId) {
+        url += "?categoryId=" + categoryId;
     }
     const res = await fetch(url, {
-        caches: "no-cache",
+        cache: "no-cache",
     });
     return res.json();
 };

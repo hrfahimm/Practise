@@ -1,11 +1,17 @@
 /** @format */
 
 import Link from "next/link";
-import React from "react";
 
 const SingleCategory = ({ category }) => {
     const { id, name } = category;
-    return <Link href={`/products?categoryId=${id}`}>{name}</Link>;
+
+    return (
+        <Link
+            className='border border-blue-500 p-3 rounded-lg shadow-lg'
+            href={`/products?categoryId=${id}`}>
+            <h3 className='font-medium text-lg'>{name}</h3>
+        </Link>
+    );
 };
 
 export default SingleCategory;

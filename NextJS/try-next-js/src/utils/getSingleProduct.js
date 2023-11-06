@@ -1,7 +1,10 @@
 /** @format */
 
+import wait from "./wait";
+
 const getSingleProduct = async (id) => {
-    const res = await fetch(`https://localhost:5000/products/${id}`, {
+    await wait();
+    const res = await fetch(`http://localhost:5000/products/${id}`, {
         cache: "no-cache",
     });
     return res.json();

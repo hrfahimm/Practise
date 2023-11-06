@@ -21,6 +21,10 @@ const navlinks = [
         title: "Blogs",
     },
     {
+        path: "/products",
+        title: "Products",
+    },
+    {
         path: "/dashboard",
         title: "Dashboard",
     },

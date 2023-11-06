@@ -1,8 +1,6 @@
 /** @format */
 
 import Navbar from "@/components/Navbar";
-import Link from "next/link";
-import React from "react";
 
 const WithLayout = ({ children }) => {
     return (

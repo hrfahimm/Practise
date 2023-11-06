@@ -4,15 +4,18 @@ import getAllProducts from "@/utils/getAllProducts";
 import SingleProduct from "./SingleProduct";
 
 const ProductsPage = async ({ searchParams }) => {
-    const Products = await getAllProducts(searchParams.categoryId);
+    const products = await getAllProducts(searchParams.categoryId);
+
     return (
-        <div>
-            {Products.map((product) => (
-                <SingleProduct
-                    key={product.id}
-                    product={product}
-                />
-            ))}
+        <div className='mt-10 container mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 '>
+                {products.map((product) => (
+                    <SingleProduct
+                        key={product.id}
+                        product={product}
+                    />
+                ))}
+            </div>
         </div>
     );
 };

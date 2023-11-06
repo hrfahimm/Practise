@@ -1,393 +1,368 @@
 {
     "categories": [
         {
-            "albumId": 1,
             "id": 1,
-            "title": "accusamus beatae ad facilis cum similique qui sunt",
-            "url": "https://via.placeholder.com/600/92c952",
-            "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+            "name": "Electronics",
+            "imageUrl": "https://example.com/electronics.jpg"
         },
         {
-            "albumId": 1,
             "id": 2,
-            "title": "reprehenderit est deserunt velit ipsam",
-            "url": "https://via.placeholder.com/600/771796",
-            "thumbnailUrl": "https://via.placeholder.com/150/771796"
+            "name": "Clothing",
+            "imageUrl": "https://example.com/clothing.jpg"
         },
         {
-            "albumId": 1,
             "id": 3,
-            "title": "officia porro iure quia iusto qui ipsa ut modi",
-            "url": "https://via.placeholder.com/600/24f355",
-            "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+            "name": "Books",
+            "imageUrl": "https://example.com/books.jpg"
         },
         {
-            "albumId": 1,
             "id": 4,
-            "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
-            "url": "https://via.placeholder.com/600/d32776",
-            "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+            "name": "Home Decor",
+            "imageUrl": "https://example.com/home-decor.jpg"
         },
         {
-            "albumId": 1,
             "id": 5,
-            "title": "natus nisi omnis corporis facere molestiae rerum in",
-            "url": "https://via.placeholder.com/600/f66b97",
-            "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+            "name": "Sports",
+            "imageUrl": "https://example.com/sports.jpg"
         },
         {
-            "albumId": 1,
             "id": 6,
-            "title": "accusamus ea aliquid et amet sequi nemo",
-            "url": "https://via.placeholder.com/600/56a8c2",
-            "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+            "name": "Beauty",
+            "imageUrl": "https://example.com/beauty.jpg"
         },
         {
-            "albumId": 1,
             "id": 7,
-            "title": "officia delectus consequatur vero aut veniam explicabo molestias",
-            "url": "https://via.placeholder.com/600/b0f7cc",
-            "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+            "name": "Toys",
+            "imageUrl": "https://example.com/toys.jpg"
         },
         {
-            "albumId": 1,
             "id": 8,
-            "title": "aut porro officiis laborum odit ea laudantium corporis",
-            "url": "https://via.placeholder.com/600/54176f",
-            "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+            "name": "Automotive",
+            "imageUrl": "https://example.com/automotive.jpg"
         },
         {
-            "albumId": 1,
             "id": 9,
-            "title": "qui eius qui autem sed",
-            "url": "https://via.placeholder.com/600/51aa97",
-            "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+            "name": "Jewelry",
+            "imageUrl": "https://example.com/jewelry.jpg"
         },
         {
-            "albumId": 1,
             "id": 10,
-            "title": "beatae et provident et ut vel",
-            "url": "https://via.placeholder.com/600/810b14",
-            "thumbnailUrl": "https://via.placeholder.com/150/810b14"
-        },
-        {
-            "albumId": 1,
-            "id": 11,
-            "title": "nihil at amet non hic quia qui",
-            "url": "https://via.placeholder.com/600/1ee8a4",
-            "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4"
-        },
-        {
-            "albumId": 1,
-            "id": 12,
-            "title": "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
-            "url": "https://via.placeholder.com/600/66b7d2",
-            "thumbnailUrl": "https://via.placeholder.com/150/66b7d2"
-        },
-        {
-            "albumId": 1,
-            "id": 13,
-            "title": "repudiandae iusto deleniti rerum",
-            "url": "https://via.placeholder.com/600/197d29",
-            "thumbnailUrl": "https://via.placeholder.com/150/197d29"
-        },
-        {
-            "albumId": 1,
-            "id": 14,
-            "title": "est necessitatibus architecto ut laborum",
-            "url": "https://via.placeholder.com/600/61a65",
-            "thumbnailUrl": "https://via.placeholder.com/150/61a65"
-        },
-        {
-            "albumId": 1,
-            "id": 15,
-            "title": "harum dicta similique quis dolore earum ex qui",
-            "url": "https://via.placeholder.com/600/f9cee5",
-            "thumbnailUrl": "https://via.placeholder.com/150/f9cee5"
-        },
-        {
-            "albumId": 1,
-            "id": 16,
-            "title": "iusto sunt nobis quasi veritatis quas expedita voluptatum deserunt",
-            "url": "https://via.placeholder.com/600/fdf73e",
-            "thumbnailUrl": "https://via.placeholder.com/150/fdf73e"
-        },
-        {
-            "albumId": 1,
-            "id": 17,
-            "title": "natus doloribus necessitatibus ipsa",
-            "url": "https://via.placeholder.com/600/9c184f",
-            "thumbnailUrl": "https://via.placeholder.com/150/9c184f"
-        },
-        {
-            "albumId": 1,
-            "id": 18,
-            "title": "laboriosam odit nam necessitatibus et illum dolores reiciendis",
-            "url": "https://via.placeholder.com/600/1fe46f",
-            "thumbnailUrl": "https://via.placeholder.com/150/1fe46f"
-        },
-        {
-            "albumId": 1,
-            "id": 19,
-            "title": "perferendis nesciunt eveniet et optio a",
-            "url": "https://via.placeholder.com/600/56acb2",
-            "thumbnailUrl": "https://via.placeholder.com/150/56acb2"
-        },
-        {
-            "albumId": 1,
-            "id": 20,
-            "title": "assumenda voluptatem laboriosam enim consequatur veniam placeat reiciendis error",
-            "url": "https://via.placeholder.com/600/8985dc",
-            "thumbnailUrl": "https://via.placeholder.com/150/8985dc"
+            "name": "Kitchenware",
+            "imageUrl": "https://example.com/kitchenware.jpg"
         }
     ],
     "products": [
         {
-            "id": 1,
-            "title": "Product 1",
-            "price": 99,
-            "categoryId": 1,
-            "features": ["Feature A", "Feature B", "Feature C"],
-            "imageUrl": "https://example.com/product1.jpg"
-        },
-        {
             "id": 2,
-            "title": "Product 2",
-            "price": 149,
-            "categoryId": 2,
-            "features": ["Feature X", "Feature Y", "Feature Z"],
-            "imageUrl": "https://example.com/product2.jpg"
-        },
-        {
-            "id": 3,
-            "title": "Product 3",
-            "price": 199,
-            "categoryId": 1,
-            "features": ["Feature P", "Feature Q", "Feature R"],
-            "imageUrl": "https://example.com/product3.jpg"
-        },
-        {
-            "id": 4,
-            "title": "Product 4",
-            "price": 79,
-            "categoryId": 3,
-            "features": ["Feature M", "Feature N", "Feature O"],
-            "imageUrl": "https://example.com/product4.jpg"
-        },
-        {
-            "id": 5,
-            "title": "Product 5",
-            "price": 249,
-            "categoryId": 2,
-            "features": ["Feature G", "Feature H", "Feature I"],
-            "imageUrl": "https://example.com/product5.jpg"
-        },
-        {
-            "id": 6,
-            "title": "Product 6",
-            "price": 129,
-            "categoryId": 1,
-            "features": ["Feature D", "Feature E", "Feature F"],
-            "imageUrl": "https://example.com/product6.jpg"
-        },
-        {
-            "id": 7,
-            "title": "Product 7",
-            "price": 179,
-            "categoryId": 3,
-            "features": ["Feature U", "Feature V", "Feature W"],
-            "imageUrl": "https://example.com/product7.jpg"
-        },
-        {
-            "id": 8,
-            "title": "Product 8",
-            "price": 299,
-            "categoryId": 2,
-            "features": ["Feature J", "Feature K", "Feature L"],
-            "imageUrl": "https://example.com/product8.jpg"
-        },
-        {
-            "id": 9,
-            "title": "Product 9",
-            "price": 159,
-            "categoryId": 1,
-            "features": ["Feature T", "Feature U", "Feature V"],
-            "imageUrl": "https://example.com/product9.jpg"
-        },
-        {
-            "id": 10,
-            "title": "Product 10",
-            "price": 349,
-            "categoryId": 3,
-            "features": ["Feature X", "Feature Y", "Feature Z"],
-            "imageUrl": "https://example.com/product10.jpg"
-        }
-    ],
-    "mobile_products": [
-        {
-            "id": 1,
-            "title": "Mobile 1",
-            "price": 499,
-            "categoryId": 1,
-            "features": ["Feature A", "Feature B", "Feature C"],
-            "imageUrl": "https://example.com/mobile1.jpg"
-        },
-        {
-            "id": 2,
-            "title": "Mobile 2",
-            "price": 599,
-            "categoryId": 2,
-            "features": ["Feature X", "Feature Y", "Feature Z"],
-            "imageUrl": "https://example.com/mobile2.jpg"
-        },
-        {
-            "id": 3,
-            "title": "Mobile 3",
-            "price": 699,
-            "categoryId": 1,
-            "features": ["Feature P", "Feature Q", "Feature R"],
-            "imageUrl": "https://example.com/mobile3.jpg"
-        },
-        {
-            "id": 4,
-            "title": "Mobile 4",
-            "price": 799,
-            "categoryId": 3,
-            "features": ["Feature M", "Feature N", "Feature O"],
-            "imageUrl": "https://example.com/mobile4.jpg"
-        },
-        {
-            "id": 5,
-            "title": "Mobile 5",
-            "price": 899,
-            "categoryId": 2,
-            "features": ["Feature G", "Feature H", "Feature I"],
-            "imageUrl": "https://example.com/mobile5.jpg"
-        },
-        {
-            "id": 6,
-            "title": "Mobile 6",
-            "price": 999,
-            "categoryId": 1,
-            "features": ["Feature D", "Feature E", "Feature F"],
-            "imageUrl": "https://example.com/mobile6.jpg"
-        },
-        {
-            "id": 7,
-            "title": "Mobile 7",
-            "price": 1099,
-            "categoryId": 3,
-            "features": ["Feature U", "Feature V", "Feature W"],
-            "imageUrl": "https://example.com/mobile7.jpg"
-        },
-        {
-            "id": 8,
-            "title": "Mobile 8",
-            "price": 1199,
-            "categoryId": 2,
-            "features": ["Feature J", "Feature K", "Feature L"],
-            "imageUrl": "https://example.com/mobile8.jpg"
-        },
-        {
-            "id": 9,
-            "title": "Mobile 9",
-            "price": 1299,
-            "categoryId": 1,
-            "features": ["Feature T", "Feature U", "Feature V"],
-            "imageUrl": "https://example.com/mobile9.jpg"
-        },
-        {
-            "id": 10,
-            "title": "Mobile 10",
-            "price": 1399,
-            "categoryId": 3,
-            "features": ["Feature X", "Feature Y", "Feature Z"],
-            "imageUrl": "https://example.com/mobile10.jpg"
-        }
-    ],
-    "fruits": [
-        {
-            "id": 1,
-            "title": "Apple",
-            "price": 1.99,
+            "title": "Samsung Galaxy S25",
+            "price": "12",
             "categoryId": 1,
             "features": [
-                "Rich in fiber",
-                "Varieties: Fuji, Granny Smith, Gala"
+                "Exynos 2100 chip",
+                "Dynamic AMOLED 2X display",
+                "Triple-camera system"
             ],
-            "imageUrl": "https://example.com/apple.jpg"
-        },
-        {
-            "id": 2,
-            "title": "Banana",
-            "price": 0.99,
-            "categoryId": 1,
-            "features": ["High in potassium", "Great for energy"],
-            "imageUrl": "https://example.com/banana.jpg"
+            "imageUrl": "https://example.com/galaxys21.jpg"
         },
         {
             "id": 3,
-            "title": "Orange",
-            "price": 1.49,
+            "title": "Aony Bravia 4K Smart TV",
+            "price": "170",
             "categoryId": 1,
-            "features": ["Rich in Vitamin C", "Citrus fruit"],
-            "imageUrl": "https://example.com/orange.jpg"
+            "features": [
+                "65-inch 4K HDR display",
+                "Android TV",
+                "Dolby Atmos sound"
+            ],
+            "imageUrl": "https://example.com/sonytv.jpg"
         },
         {
             "id": 4,
-            "title": "Grapes",
-            "price": 2.49,
-            "categoryId": 1,
-            "features": ["Comes in different colors", "Can be seedless"],
-            "imageUrl": "https://example.com/grapes.jpg"
+            "title": "Levi's Men's 501 Jeans",
+            "price": "140",
+            "categoryId": 2,
+            "features": ["100% cotton", "Classic straight fit", "Button fly"],
+            "imageUrl": "https://example.com/levisjeans.jpg"
         },
         {
             "id": 5,
-            "title": "Strawberry",
-            "price": 3.99,
-            "categoryId": 1,
-            "features": ["Rich in antioxidants", "Sweet and tart"],
-            "imageUrl": "https://example.com/strawberry.jpg"
+            "title": "Bdidas Originals Superstar Sneakers",
+            "price": "101",
+            "categoryId": 2,
+            "features": [
+                "Breathable mesh upper",
+                "Max Air cushioning",
+                "Rubber outsole"
+            ],
+            "imageUrl": "https://example.com/nikeairmax270.jpg"
         },
         {
             "id": 6,
-            "title": "Pineapple",
-            "price": 2.99,
-            "categoryId": 1,
-            "features": ["Tropical fruit", "Contains bromelain"],
-            "imageUrl": "https://example.com/pineapple.jpg"
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "price": 12,
+            "categoryId": 3,
+            "features": [
+                "Author: J.K. Rowling",
+                "Paperback edition",
+                "First book of the Harry Potter series"
+            ],
+            "imageUrl": "https://example.com/harrypotter.jpg"
         },
         {
             "id": 7,
-            "title": "Watermelon",
-            "price": 4.49,
-            "categoryId": 1,
-            "features": ["High water content", "Refreshing in summer"],
-            "imageUrl": "https://example.com/watermelon.jpg"
+            "title": "Bdidas Originals Superstar Sneakers",
+            "price": "170",
+            "categoryId": 3,
+            "features": [
+                "Author: Paulo Coelho",
+                "Inspiring philosophical novel",
+                "Translated from Portuguese"
+            ],
+            "imageUrl": "https://example.com/thealchemist.jpg"
         },
         {
             "id": 8,
-            "title": "Mango",
-            "price": 2.79,
-            "categoryId": 1,
-            "features": ["Sweet and juicy", "Rich in Vitamin A"],
-            "imageUrl": "https://example.com/mango.jpg"
+            "title": "Austic Wooden Wall Clock",
+            "price": "140",
+            "categoryId": 4,
+            "features": [
+                "Handcrafted from reclaimed wood",
+                "Vintage design",
+                "Quartz movement"
+            ],
+            "imageUrl": "https://example.com/woodenclock.jpg"
         },
         {
             "id": 9,
-            "title": "Pear",
-            "price": 1.89,
-            "categoryId": 1,
-            "features": ["Fibrous texture", "Varieties: Anjou, Bartlett, Bosc"],
-            "imageUrl": "https://example.com/pear.jpg"
+            "title": "Marble Pattern Ceramic Vase",
+            "price": 45,
+            "categoryId": 4,
+            "features": [
+                "Elegant marble pattern",
+                "Perfect for floral arrangements",
+                "10 inches tall"
+            ],
+            "imageUrl": "https://example.com/marblevase.jpg"
         },
         {
             "id": 10,
-            "title": "Cherry",
-            "price": 3.49,
+            "title": "Wilson NFL Super Grip Football",
+            "price": "00",
+            "categoryId": 5,
+            "features": [
+                "Official size",
+                "Durable composite leather cover",
+                "Excellent grip"
+            ],
+            "imageUrl": "https://example.com/football.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Fitbit Versa 3 Smartwatch",
+            "price": 199,
+            "categoryId": 6,
+            "features": [
+                "Built-in GPS",
+                "24/7 heart rate tracking",
+                "Sleep monitoring"
+            ],
+            "imageUrl": "https://example.com/fitbitversa3.jpg"
+        },
+        {
+            "id": 12,
+            "title": "LEGO Star Wars Millennium Falcon",
+            "price": 149,
+            "categoryId": 7,
+            "features": [
+                "1,351 pieces",
+                "Includes Han Solo and Chewbacca minifigures",
+                "Highly detailed"
+            ],
+            "imageUrl": "https://example.com/legomillenniumfalcon.jpg"
+        },
+        {
+            "id": 13,
+            "title": "Black & Decker Cordless Drill",
+            "price": 79,
+            "categoryId": 8,
+            "features": [
+                "20V Lithium-ion battery",
+                "Variable speed control",
+                "Includes drill bits"
+            ],
+            "imageUrl": "https://example.com/cordlessdrill.jpg"
+        },
+        {
+            "id": 14,
+            "title": "Silver Diamond Stud Earrings",
+            "price": 149,
+            "categoryId": 9,
+            "features": [
+                "925 sterling silver",
+                "Round-cut diamonds",
+                "0.5 carat total weight"
+            ],
+            "imageUrl": "https://example.com/diamondearrings.jpg"
+        },
+        {
+            "id": 15,
+            "title": "KitchenAid Stand Mixer",
+            "price": 299,
+            "categoryId": 10,
+            "features": [
+                "325-watt motor",
+                "Tilt-head design",
+                "Includes stainless steel mixing bowl"
+            ],
+            "imageUrl": "https://example.com/standmixer.jpg"
+        },
+        {
+            "id": 16,
+            "title": "iPad Pro",
+            "price": 1099,
             "categoryId": 1,
-            "features": ["Small stone fruit", "Sweet and tangy"],
-            "imageUrl": "https://example.com/cherry.jpg"
+            "features": ["M1 chip", "Liquid Retina XDR display", "Face ID"],
+            "imageUrl": "https://example.com/ipadpro.jpg"
+        },
+        {
+            "id": 17,
+            "title": "Adidas Ultraboost 21",
+            "price": 180,
+            "categoryId": 2,
+            "features": [
+                "Primeknit upper",
+                "Boost midsole",
+                "Responsive cushioning"
+            ],
+            "imageUrl": "https://example.com/ultraboost21.jpg"
+        },
+        {
+            "id": 19,
+            "title": "Modern Metal Wall Art",
+            "price": 89,
+            "categoryId": 4,
+            "features": ["Abstract design", "Hand-painted", "Easy to hang"],
+            "imageUrl": "https://example.com/metalwallart.jpg"
+        },
+        {
+            "id": 20,
+            "title": "Spalding NBA Street Basketball",
+            "price": 25,
+            "categoryId": 5,
+            "features": [
+                "Size 7 (29.5 inches)",
+                "Durable rubber cover",
+                "Great for outdoor play"
+            ],
+            "imageUrl": "https://example.com/basketball.jpg"
+        },
+        {
+            "id": 21,
+            "title": "Philips Sonicare Electric Toothbrush",
+            "price": "100",
+            "categoryId": 6,
+            "features": [
+                "Sonic technology",
+                "2-minute timer",
+                "Includes brush heads"
+            ],
+            "imageUrl": "https://example.com/sonicaretoothbrush.jpg"
+        },
+        {
+            "id": 22,
+            "title": "LEGO Harry Potter Hogwarts Castle",
+            "price": 399,
+            "categoryId": 7,
+            "features": [
+                "6,020 pieces",
+                "Includes minifigures of Harry Potter characters",
+                "Detailed interior"
+            ],
+            "imageUrl": "https://example.com/legohogwarts.jpg"
+        },
+        {
+            "id": 23,
+            "title": "Bosch 18-Volt Drill/Driver Kit",
+            "price": 129,
+            "categoryId": 8,
+            "features": [
+                "18V Lithium-ion battery",
+                "Two-speed transmission",
+                "Includes carrying case"
+            ],
+            "imageUrl": "https://example.com/boschdrill.jpg"
+        },
+        {
+            "id": 24,
+            "title": "Diamond Tennis Bracelet",
+            "price": 599,
+            "categoryId": 9,
+            "features": [
+                "14K white gold",
+                "Round-cut diamonds",
+                "2 carat total weight"
+            ],
+            "imageUrl": "https://example.com/diamondbracelet.jpg"
+        },
+        {
+            "id": 25,
+            "title": "Cuisinart Stainless Steel Cookware Set",
+            "price": "2441",
+            "categoryId": 10,
+            "features": [
+                "10-piece set",
+                "Stainless steel construction",
+                "Dishwasher safe"
+            ],
+            "imageUrl": "https://example.com/cookwareset.jpg"
+        },
+        {
+            "id": 26,
+            "title": "Dell XPS 13 Laptop",
+            "price": "00",
+            "categoryId": 1,
+            "features": [
+                "Intel Core i7 processor",
+                "13.3-inch InfinityEdge display",
+                "512GB SSD"
+            ],
+            "imageUrl": "https://example.com/dellxps13.jpg"
+        },
+        {
+            "id": 27,
+            "title": "Bdidas Originals Superstar Sneakers",
+            "price": "107",
+            "categoryId": 2,
+            "features": [
+                "Classic shell toe design",
+                "Leather upper",
+                "Rubber cupsole"
+            ],
+            "imageUrl": "https://example.com/superstarsneakers.jpg"
+        },
+        {
+            "id": 28,
+            "title": "The Chronicles of Narnia Box Set",
+            "price": 45,
+            "categoryId": 3,
+            "features": [
+                "Author: C.S. Lewis",
+                "Fantasy adventure series",
+                "Seven books in one"
+            ],
+            "imageUrl": "https://example.com/narnia.jpg"
+        },
+        {
+            "id": 29,
+            "title": "Modern Geometric Wall Mirror",
+            "price": 129,
+            "categoryId": 4,
+            "features": [
+                "Unique geometric design",
+                "Gold-finished frame",
+                "36 inches in diameter"
+            ],
+            "imageUrl": "https://example.com/wallmirror.jpg"
         }
     ]
 }

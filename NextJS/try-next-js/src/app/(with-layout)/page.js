@@ -4,6 +4,9 @@ import Categories from "@/components/HomePage/Categories";
 import img1 from "../../assets/images/img1.jpg";
 
 import Image from "next/image";
+import PropulerProducts from "@/components/HomePage/PropulerProducts";
+import { Suspense } from "react";
+export const revalidate = 5;
 
 export const metadata = {
     title: "Next || RootLayout",
@@ -22,6 +25,14 @@ const HomePage = () => {
             />
             <div>
                 <Categories />
+                <Suspense
+                    fallback={
+                        <h1 className='text-center text-3xl font-bold p-10'>
+                            Loading.........
+                        </h1>
+                    }>
+                    <PropulerProducts />
+                </Suspense>
             </div>
         </main>
     );
