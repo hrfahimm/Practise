@@ -14,8 +14,11 @@ export const metadata = {
 };
 const HomePage = () => {
     return (
-        <main className='flex flex-col items-center justify-between p-24'>
-            <h1 className='text-3xl text-red-600 p-2'>next js Home</h1>
+        <main className='container flex flex-col items-center justify-between p-24'>
+            <h1 className='text-3xl text-blue-600 p-8 font-extrabold '>
+                {" "}
+                Home
+            </h1>
             <Image
                 width={600}
                 height={380}
@@ -27,8 +30,8 @@ const HomePage = () => {
                 <Categories />
                 <Suspense
                     fallback={
-                        <h1 className='text-center text-3xl font-bold p-10'>
-                            Loading.........
+                        <h1 className='text-center font-semibold text-2xl'>
+                            propuler products Loading...
                         </h1>
                     }>
                     <PropulerProducts />

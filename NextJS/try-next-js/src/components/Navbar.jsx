@@ -34,7 +34,13 @@ const Navbar = () => {
     return (
         <nav className='flex items-center justify-between container mx-auto p-4 '>
             {" "}
-            <h1 className='text-3xl font-semibold'>Next Js </h1>
+            <h1 className='text-3xl font-semibold'>
+                <Link
+                    href='/'
+                    className='p-10'>
+                    Next Js
+                </Link>{" "}
+            </h1>
             <ul className='flex items-center justify-center'>
                 {navlinks.map(({ path, title }) => (
                     <li

@@ -8,10 +8,11 @@ const ProductsError = ({ error, reset }) => {
     useEffect(() => {
         console.error(error);
     }, [error]);
+
     return (
-        <div className='text-center '>
-            <h1 className='text-2xl font-bold'>
-                {error.message || " something is wromg "}
+        <div className='text-center'>
+            <h1 className='text-2xl font-semibold'>
+                {error.message || "Something wen wrong happened!"}
             </h1>
             <button onClick={() => reset()}>Reset</button>
         </div>

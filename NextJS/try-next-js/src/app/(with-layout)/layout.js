@@ -8,7 +8,7 @@ const WithLayout = ({ children }) => {
             <Navbar />
             {children}
 
-            <h1 className='m-auto text-center p-8 text-2xl font-bold'>
+            <h1 className='m-auto text-center  text-5xl uppercase text-lime-600  font-bold'>
                 footer
             </h1>
         </div>

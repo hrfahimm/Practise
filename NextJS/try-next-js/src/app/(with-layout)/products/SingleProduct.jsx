@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleProduct = ({ product }) => {
-    const { id, title, price, imageUrl } = product;
+    const { id, title, price } = product;
     return (
         <div className='p-3 shadow-lg rounded-lg'>
             <h1 className='text-xl font-medium'>{title}</h1>
