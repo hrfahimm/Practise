@@ -13,6 +13,13 @@ const ManageProductPage = async () => {
     return (
         <div className='w-full mt-10'>
             <h1 className='mb-5 text-2xl font-bold'> ManageProductPage</h1>
+            <td className='  p-4 border-slate-400'>
+                <button
+                    // onClick={() => handleAdd({ title, price })}
+                    className='bg-blue-500 p-4 text-white rounded-xl'>
+                    Add
+                </button>
+            </td>
             <ManageProduct products={products} />
         </div>
     );

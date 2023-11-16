@@ -1,6 +1,6 @@
 /** @format */
 
-const ManageSingleProduct = ({ product }) => {
+const ManageSingleProduct = ({ product, openModal, handleDelete }) => {
     const { id, title, price, categoryId, imageUrl } = product;
 
     return (
@@ -10,15 +10,20 @@ const ManageSingleProduct = ({ product }) => {
                 {price}
             </td>
             <td className='border border-slate-400 '>
-                <button className='bg-green-500 p-4 text-white px-3 py-2 rounded-xl'>
+                <button
+                    onClick={() => openModal(product)}
+                    className='bg-green-500 p-4 text-white px-3 py-2 rounded-xl'>
                     Update
                 </button>
             </td>
             <td className='border border-slate-400'>
-                <button className='bg-red-500 p-4 text-white px-3 py-2 rounded-xl'>
+                <button
+                    onClick={() => handleDelete(id)}
+                    className='bg-red-500 p-4 text-white px-3 py-2 rounded-xl'>
                     Delete
                 </button>
             </td>
+            
         </tr>
     );
 };
