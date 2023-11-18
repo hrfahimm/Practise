@@ -1,0 +1,15 @@
+// /** @format */
+ 
+// import { initializeApp } from "firebase/app";
+ 
+// const firebaseConfig = {
+//     apiKey: "AIzaSyCiKeNRu_FWAvRQTr94fg629fcBvJ-Zweo",
+//     authDomain: "easy-shoppp.firebaseapp.com",
+//     projectId: "easy-shoppp",
+//     storageBucket: "easy-shoppp.appspot.com",
+//     messagingSenderId: "8725299714",
+//     appId: "1:8725299714:web:e0e103cdf7eb17ea035d1b",
+// };
+
+
+// const app = initializeApp(firebaseConfig);
