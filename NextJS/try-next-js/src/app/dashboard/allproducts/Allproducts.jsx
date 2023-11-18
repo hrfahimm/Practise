@@ -3,13 +3,14 @@
 "use client";
 
 import Modal from "@/components/Modal";
-import db from "@/db.json";
+
 import { useRef, useState } from "react";
 import ManageSingleProduct from "../manage-product/ManageSigleProduct";
+import useProducts from "@/Hooks/useProducts";
 
 const AllProducts = () => {
-    const products = db.products;
-    const isLoading = false;
+    const { products, error, isLoading, isValidating, mutate } = useProducts();
+    //const isLoading = false;
     const modalRef = useRef(null);
     const [updateData, setUpdateData] = useState(null);
 
@@ -47,14 +48,14 @@ const AllProducts = () => {
                 );
                 const result = await res.json();
                 console.log(result);
-
+                mutate();
                 form.reset();
                 closeModal();
             } catch (error) {
                 console.log(error);
             }
         }
-    };
+    }
 
     const handleDelete = async (id) => {
         try {
@@ -63,6 +64,7 @@ const AllProducts = () => {
             });
             const result = await res.json();
             console.log(result);
+            mutate();
         } catch (error) {
             console.log(error);
         }
@@ -70,30 +72,37 @@ const AllProducts = () => {
 
     return (
         <div>
-            <table
-                className={`border-collapse w-full ${
-                    isLoading ? "opacity-50" : "opacity-100"
-                }`}>
-                <thead>
-                    <tr>
-                        <th className='border border-slate-400'>Title</th>
-                        <th className='border border-slate-400'>Price</th>
-                        <th className='border border-slate-400'>Update</th>
-                        <th className='border border-slate-400'>Delete</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {products.map((product) => (
-                        <ManageSingleProduct
-                            openModal={openModal}
-                            key={product.id}
-                            product={product}
-                            handleDelete={handleDelete}
-                        />
-                    ))}
-                </tbody>
-            </table>
+            {isLoading && (
+                <h1 className='text-center text-2xl text-blue-400 font-semibold'>
+                    SWR Loading...
+                </h1>
+            )}
 
+            {!isLoading && (
+                <table
+                    className={`border-collapse w-full ${
+                        isValidating ? "opacity-50" : "opacity-100"
+                    }`}>
+                    <thead>
+                        <tr>
+                            <th className='border border-slate-400'>Title</th>
+                            <th className='border border-slate-400'>Price</th>
+                            <th className='border border-slate-400'>Update</th>
+                            <th className='border border-slate-400'>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {products.map((product) => (
+                            <ManageSingleProduct
+                                openModal={openModal}
+                                key={product.id}
+                                product={product}
+                                handleDelete={handleDelete}
+                            />
+                        ))}
+                    </tbody>
+                </table>
+            )}
             <Modal
                 closeModal={closeModal}
                 updateData={updateData}
@@ -105,3 +114,4 @@ const AllProducts = () => {
 };
 
 export default AllProducts;
+n
