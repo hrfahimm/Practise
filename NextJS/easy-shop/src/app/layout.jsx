@@ -5,6 +5,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import Provider from "@/providers";
+import Toster from "@/components/Toster";
 
 const roboto = Roboto({
     weight: ["100", "300", "400", "500", "700", "900"],
@@ -24,13 +26,16 @@ const RootLayout = ({ children }) => {
             data-theme='dark'
             className='transition-all'>
             <body className='container mx-auto px-2 font-roboto'>
-                <div className='flex min-h-screen flex-col justify-between'>
-                    <div className=''>
-                        <Navbar />
-                        <main className='mt-5'>{children}</main>
+                <Provider>
+                    <div className='flex min-h-screen flex-col justify-between'>
+                        <div className=''>
+                            <Navbar />
+                            <main className='mt-5'>{children}</main>
+                        </div>
+                        <Footer />
                     </div>
-                    <Footer />
-                </div>
+                </Provider>
+                <Toster></Toster>
             </body>
         </html>
     );
