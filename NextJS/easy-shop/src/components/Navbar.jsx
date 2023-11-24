@@ -105,19 +105,14 @@ const Navbar = () => {
                             <div className='w-10 rounded-full'>
                                 <Image
                                     alt='user-logo'
-                                    src={photoURL}
+                                    title={displayName}
+                                    src={
+                                        photoURL ||
+                                        "https://imgclothing.com.co/cdn/shop/files/Logo_IMG_invertido-02_2551x.png?v=1668785641"
+                                    }
                                     width={30}
                                     height={30}
                                     className='h-8 w-8 rounded-full'
-                                />
-
-                                <Image
-                                    alt='user-logo'
-                                    title={displayName}
-                                    src={pro}
-                                    width={40}
-                                    height={40}
-                                    className='h-10 w-10 rounded-full'
                                 />
                             </div>
                         </label>
