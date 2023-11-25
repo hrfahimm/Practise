@@ -2,6 +2,7 @@
 "use client";
 import GoogleLogin from "@/components/GoogleLogin";
 import useAuth from "@/hooks/useAuth";
+import createjwt from "@/utils/createjwt";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
@@ -20,6 +21,7 @@ const LoginFrom = () => {
         const toastId = toast.loading("loading...");
         try {
             const user = await signIn(email, password);
+            createjwt({ email });
             toast.dismiss(toastId);
             toast.success("user successfully Sign In");
         } catch (error) {
@@ -30,7 +32,8 @@ const LoginFrom = () => {
     const handleGoogleLogin = async () => {
         const toastId = toast.loading("loading...");
         try {
-            const user = await googleLogin();
+            const { user } = await googleLogin();
+            createjwt({ email: user.email });
             toast.dismiss(toastId);
             toast.success("user successfully Sign In");
         } catch (error) {

@@ -3,9 +3,9 @@
 "use client";
 
 import useAuth from "@/hooks/useAuth";
+import createjwt from "@/utils/createjwt";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
-import { startTransition } from "react";
+
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
@@ -20,9 +20,6 @@ const SignupForm = () => {
     } = useForm();
 
     const { createUser, profileUpdate, googleLogin } = useAuth();
-    const search = useSearchParams();
-    const from = search.get("redirectUrl") || "/";
-    const { replace, refresh } = useRouter();
 
     const uploadImage = async (event) => {
         const formData = new FormData();
@@ -53,18 +50,14 @@ const SignupForm = () => {
         const { name, email, password, photo } = data;
         const toastId = toast.loading("Loading...");
         try {
-            await createUser(email, password);
-            await createJWT({ email });
+            const user = await createUser(email, password);
+            createjwt({ email });
             await profileUpdate({
                 displayName: name,
                 photoURL: photo,
             });
-            startTransition(() => {
-                refresh();
-                replace(from);
-                toast.dismiss(toastId);
-                toast.success("User signed in successfully");
-            });
+            toast.dismiss(toastId);
+            toast.success("user SIgn In SuccessFully");
         } catch (error) {
             toast.dismiss(toastId);
             toast.error(error.message || "User not signed in");
@@ -74,7 +67,8 @@ const SignupForm = () => {
     const handleGoogleLogin = async () => {
         const toastId = toast.loading("loading...");
         try {
-            const user = await googleLogin();
+            const { user } = await googleLogin();
+            createjwt({ email: user.email });
             toast.dismiss(toastId);
             toast.success("user successfully Sign In");
         } catch (error) {
