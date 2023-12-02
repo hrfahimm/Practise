@@ -1,16 +1,16 @@
 /** @format */
+
 "use client";
 
-import React from "react";
-import ThemeProvider from "./ThemeProvider";
 import AuthProvider from "./AuthProvider";
+import ThemeProvider from "./ThemeProvider";
 
-const Provider = ({ children }) => {
+const Providers = ({ children }) => {
     return (
         <ThemeProvider>
-            <AuthProvider>{children}</AuthProvider>{" "}
+            <AuthProvider>{children}</AuthProvider>
         </ThemeProvider>
     );
 };
 
-export default Provider;
+export default Providers;

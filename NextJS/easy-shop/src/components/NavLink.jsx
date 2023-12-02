@@ -1,9 +1,10 @@
 /** @format */
 
+"use client";
+
 import classNames from "@/utils/className";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
 
 const NavLink = ({
     children,
@@ -14,7 +15,6 @@ const NavLink = ({
 }) => {
     const path = usePathname();
     const active = exact ? path === href : path.startsWith(href);
-
     const classes = classNames(props.className, active && activeClassName);
     if (classes) {
         props.className = classes;
@@ -24,7 +24,7 @@ const NavLink = ({
         <Link
             href={href}
             {...props}>
-            {children}{" "}
+            {children}
         </Link>
     );
 };

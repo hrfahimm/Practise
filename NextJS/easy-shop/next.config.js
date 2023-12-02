@@ -3,25 +3,20 @@
  * @type {import('next').NextConfig}
  */
 
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: true,
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "lh3.googleusercontent.com",
+            },
+            {
+                protocol: "https",
+                hostname: "i.ibb.co",
+            },
+        ],
+    },
+};
 
-(module.exports = nextConfig),
-    (module.exports = {
-        images: {
-            domains: ["i.ibb.co"],
-            domains: ["lh3.googleusercontent.com"],
-        },
-    });
-
-// module.exports = {
-//     images: {
-//         remotePatterns: [
-//             {
-//                 protocol: "https",
-//                 hostname: "assets.example.com",
-//                 port: "",
-//                 pathname: "/account123/**",
-//             },
-//         ],
-//     },
-// };
+module.exports = nextConfig;

@@ -1,11 +1,11 @@
 /** @format */
 
-const createjwt = async (payload) => {
+const createJWT = async (payload) => {
     try {
         const res = await fetch("/api/auth", {
             method: "POST",
             headers: {
-                "content-type": "application/json",
+                "context-type": "application/json",
             },
             body: JSON.stringify(payload),
         });
@@ -16,4 +16,4 @@ const createjwt = async (payload) => {
     }
 };
 
-export default createjwt;
+export default createJWT;

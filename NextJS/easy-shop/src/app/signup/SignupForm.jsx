@@ -3,12 +3,17 @@
 "use client";
 
 import useAuth from "@/hooks/useAuth";
-import createjwt from "@/utils/createjwt";
+import createjwt from "@/utils/createJWT";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
+export const metadata = {
+    title: "ES || SignUp",
+    description: " Easy Shop Is an E-commerc Web App ",
+};
 
 const SignupForm = () => {
     const {
@@ -18,8 +23,10 @@ const SignupForm = () => {
         getValues,
         setValue,
     } = useForm();
-
     const { createUser, profileUpdate, googleLogin } = useAuth();
+    const search = useSearchParams();
+    const from = search.get("redirectUrl") || "/";
+    const { replace, refresh } = useRouter();
 
     const uploadImage = async (event) => {
         const formData = new FormData();
@@ -50,14 +57,15 @@ const SignupForm = () => {
         const { name, email, password, photo } = data;
         const toastId = toast.loading("Loading...");
         try {
-            const user = await createUser(email, password);
-            createjwt({ email });
+            await createUser(email, password);
+            await createjwt({ email });
             await profileUpdate({
                 displayName: name,
                 photoURL: photo,
             });
             toast.dismiss(toastId);
             toast.success("user SIgn In SuccessFully");
+            replace(from);
         } catch (error) {
             toast.dismiss(toastId);
             toast.error(error.message || "User not signed in");
@@ -68,9 +76,10 @@ const SignupForm = () => {
         const toastId = toast.loading("loading...");
         try {
             const { user } = await googleLogin();
-            createjwt({ email: user.email });
+            await createjwt({ email: user.email });
             toast.dismiss(toastId);
             toast.success("user successfully Sign In");
+            replace(from);
         } catch (error) {
             toast.dismiss(toastId);
             toast.success("user successfully Sign In");

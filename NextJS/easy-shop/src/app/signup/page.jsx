@@ -2,6 +2,10 @@
 
 import LoginSvg from "@/components/LoginSvg";
 import SignupForm from "./SignupForm";
+export const metadata = {
+    title: "ES || SignUp",
+    description: " Easy Shop Is an E-commerc Web App ",
+};
 
 const SignupPage = () => {
     return (

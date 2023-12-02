@@ -21,11 +21,20 @@ const commonNavData = [
 
 export const afterLoginNavData = [
     ...commonNavData,
-    { path: "/dashboard", title: "Dashboard" },
+    {
+        path: "/dashboard",
+        title: "Dashboard",
+    },
 ];
 
 export const beforeLoginNavData = [
     ...commonNavData,
-    { path: "/signup", title: "SignUp" },
-    { path: "/login", title: "LogIn" },
+    {
+        path: "/signup",
+        title: "Signup",
+    },
+    {
+        path: "/login",
+        title: "Login",
+    },
 ];

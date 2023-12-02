@@ -2,11 +2,16 @@
 "use client";
 import GoogleLogin from "@/components/GoogleLogin";
 import useAuth from "@/hooks/useAuth";
-import createjwt from "@/utils/createjwt";
+import createjwt from "@/utils/createJWT";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
+export const metadata = {
+    title: "ES || LogIn",
+    description: " Easy Shop Is an E-commerc Web App ",
+};
 
 const LoginFrom = () => {
     const {
@@ -15,27 +20,36 @@ const LoginFrom = () => {
         formState: { errors },
     } = useForm();
     const { signIn, googleLogin } = useAuth();
+    const search = useSearchParams();
+    const from = search.get("redirect") || "/";
+    const { replace, refresh } = useRouter();
 
     const onSubmit = async (data) => {
         const { email, password } = data;
-        const toastId = toast.loading("loading...");
+        const toastId = toast.loading("Loading...");
         try {
-            const user = await signIn(email, password);
-            createjwt({ email });
-            toast.dismiss(toastId);
-            toast.success("user successfully Sign In");
+            await signIn(email, password);
+            await createjwt({ email });
+            startTransition(() => {
+                refresh();
+                replace(from);
+                toast.dismiss(toastId);
+                toast.success("User signed in successfully");
+            });
         } catch (error) {
             toast.dismiss(toastId);
-            toast.error(error.message || "user Not Sign In ");
+            toast.error(error.message || "User not signed in");
         }
     };
-    const handleGoogleLogin = async () => {
+
+    const handleGoogleLogin = async ({ from }) => {
         const toastId = toast.loading("loading...");
         try {
             const { user } = await googleLogin();
-            createjwt({ email: user.email });
+            await createjwt({ email: user.email });
             toast.dismiss(toastId);
             toast.success("user successfully Sign In");
+            replace(from);
         } catch (error) {
             toast.dismiss(toastId);
             toast.success("user successfully Sign In");

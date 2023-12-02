@@ -2,6 +2,10 @@
 
 import LoginFrom from "./LoginFrom";
 import LoginSvg from "@/components/LoginSvg";
+export const metadata = {
+    title: "ES || LogIn",
+    description: " Easy Shop Is an E-commerc Web App ",
+};
 
 const LoginPage = () => {
     return (

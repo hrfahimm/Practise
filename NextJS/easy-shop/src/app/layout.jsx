@@ -15,7 +15,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-    title: "Easy Shop",
+    title: "EASY SHOP",
     description: " Easy Shop Is an E-commerc Web App ",
 };
 
