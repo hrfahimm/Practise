@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Books",
+        "imageUrl": "/products/greatgatsby_3.jpg"
+    },
+    {
+        "name": "Books",
+        "imageUrl": "/products/greatgatsby_2.jpg"
+    },
+    {
+        "name": "Books",
+        "imageUrl": "/products/greatgatsby_1.jpg"
+    },
+    {
+        "name": "Sports",
+        "imageUrl": "/products/airmax270_2.jpg"
+    },
+    {
+        "name": "Sports",
+        "imageUrl": "/products/airmax270_1.jpg"
+    },
+    {
+        "name": "Sports",
+        "imageUrl": "/products/airmax270_3.jpg"
+    },
+    {
+        "name": "Electronics",
+        "imageUrl": "/products/galaxys21_1.jpg"
+    },
+    {
+        "name": "Electronics",
+        "imageUrl": "/products/galaxys21_2.jpg"
+    },
+    {
+        "name": "Electronics",
+        "imageUrl": "/products/galaxys21_3.jpg"
+    },
+    {
+        "name": "home",
+        "imageUrl": "/products/baristaexpress_1.jpg"
+    },
+    {
+        "name": "home",
+        "imageUrl": "/products/baristaexpress_2.jpg"
+    },
+    {
+        "name": "home",
+        "imageUrl": "/products/baristaexpress_2.jpg"
+    },
+    {
+        "name": "Camere",
+        "imageUrl": "/products/eosr6_1.jpg"
+    },
+    {
+        "name": "Camere",
+        "imageUrl": "/products/eosr6_2.jpg"
+    },
+    {
+        "name": "Camere",
+        "imageUrl": "/products/eosr6_3.jpg"
+    },
+    {
+        "name": "Game",
+        "imageUrl": "/products/ps5_1.jpg"
+    },
+
+    {
+        "name": "Game",
+        "imageUrl": "/products/ps5_2.jpg"
+    },
+
+    {
+        "name": "Game",
+        "imageUrl": "/products/ps5_3.jpg"
+    }
+]
