@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleProduct = ({ product }) => {
-    const { imageUrl, title, price, _id } = product;
+    const { imageUrl, title, price, _id, name } = product;
 
     return (
         <Link href={`/products/${_id}`}>
@@ -21,7 +21,9 @@ const SingleProduct = ({ product }) => {
                     />
                 </figure>
                 <div className='card-body flex-grow-0'>
+                    <h2 className='card-title'>{name}</h2>
                     <h2 className='card-title'>{title}</h2>
+
                     <h3>Price: {price}</h3>
                 </div>
             </div>
